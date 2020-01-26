@@ -1,4 +1,4 @@
-# Angular-Project-Architecture
+# Angular Project Architecture
 > This is the Angular Project Architecture that [Pobuca](https://www.pobuca.com) uses in every Angular Project.   
 
 ```
