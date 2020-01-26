@@ -12,25 +12,25 @@ import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
-  declarations: [
-    // Application Pipes
-    
-    // Application Components
-    
-  ],
-  imports: [
-    // Angular Modules
-    CommonModule,
-    FormsModule
-  ],
-  exports: [
-    // Angular Modules
-    CommonModule,
-    FormsModule,
-    // Application Pipes
-    
-    // Application Components
-    
-  ]
+	declarations: [
+		// Application Pipes
+
+		// Application Components
+
+	],
+	exports: [
+		// Angular Modules
+		CommonModule,
+		FormsModule,
+		// Application Pipes
+
+		// Application Components
+
+	],
+	imports: [
+		// Angular Modules
+		CommonModule,
+		FormsModule
+	]
 })
 export class SharedModule { }
