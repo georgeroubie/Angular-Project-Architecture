@@ -8,8 +8,6 @@ import { CommonModule } from '@angular/common';
 import { HTTP_INTERCEPTORS } from '@angular/common/http';
 // Application Interceptors
 import { DummyInterceptor } from './interceptors/dummy-interceptor';
-// Application Constants
-import { Constants } from '../config/constants';
 // Application Services
 
 // Application Utilities
@@ -43,8 +41,6 @@ export class CoreModule {
 		return {
 			ngModule: CoreModule,
 			providers: [
-				// Application Constants
-				Constants,
 				// Application Services
 
 				// Application Utilities
