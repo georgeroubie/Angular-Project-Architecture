@@ -7,10 +7,7 @@ app:.
 |   app.component.html
 |   app.component.ts
 |   app.module.ts
-|   
-+---config
-|       constants.ts
-|       
+|      
 +---core
 |   |   core.module.ts
 |   |   
